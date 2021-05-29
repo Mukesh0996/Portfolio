@@ -17,7 +17,7 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -109,20 +109,23 @@ hr {
     text-align: center;
    
 }
+.body {
+    overflow: auto;
+}
 .ow {
     background: var(--off-white);
 }
 
 .footer {
     background: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
 .footer-header {
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
 }
 .footer .link {
     color: white;
@@ -134,7 +137,7 @@ hr {
 .project {
     padding: 2rem;
     margin: auto;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 ul {
