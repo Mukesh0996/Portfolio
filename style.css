@@ -19,6 +19,7 @@ body {
 .container-center {
     max-width: 700px;
     margin: auto;
+    text-align: center;
 }
 
 hr {
@@ -153,4 +154,14 @@ i{
 }
 i:hover {
     color: var(--dark-gray);
+}
+.introduction {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    color: var(--primary-color);
+}
+.content {
+    text-align: justify;
 }

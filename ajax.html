@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogs | Mukesh kumar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Mukesh</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav> 
+        <div class="container container-center">
+            <h1 style="color: #6B7280;" class="head-heading">What is AJAX?</h1>
+            <small class="introduction">Introduction</small>
+            <p class="content">AJAX stands for Asynchronous JavaScript and XML. AJAX is not a programming language, it is a concept in web development. It is a concept which uses a combination of a browser's built-in XMLHttpRequest object(used to send HTTP requests to the server) and JavaScript and HTML DOM.</p>
+            <small class="introduction">How AJAX works?</small>
+            <p class="content">As and when an event is fired in the UI(web page), we create an XMLHttPRequest object in the Javascript file which is wired to the web page and we send the HTTP Request over the network(Internet) to the server. Server is responsible for accepting(if certain conditions are met) and will process the HTTP Request. Server later creates a response and sends the data back to the browser through the internet. The data is received to the JavaScript which is running in the browser and the data(recevied from the server) is later updated in the HTML DOM.</p>
+            <small class="introduction">How AJAX is implemented in the recent web apps?</small>
+            <p class="content">AJAX is implemented using the FETCH API as XMLHttps is already in the depreciation state. The Fetch API is more powerful and is flexible. Fetch API is similar to that of the XMLHttpRequest object. Fetch API takes two arguments. 1 - Request URL(URL which points to the server) 2 - Request Options. Request options is an Object which consists of a few key value pairs. Some of them are: <br/></br> 1) Method - The method includes 4 values - <strong>GET</strong> (to fetch data from server), <strong>POST</strong> (to add data in the Database through the server), <strong>PUT</strong> (to update the data which is already present), <strong>DELETE</strong> (to delete the data in the server). <br><br> 2) Headers - This includes the type of data that is being sent through the network. Most used header is <strong> "Content-Type": "application/json"</strong>, when this is used, we indicate that the network request constains on JSON object. <br> <br> 3) Body - This consits of the data that is being sent through the network to the server. It is later accessed by the server to add/ process/ update/ delete the data.</p>
+            <small class="introduction">Advantages</small>
+            <p class="content"> - AJAX allows web pages to update asynchronously by exchanging data with the server behind the scenes. It is possible to update parts of a web page, without even reloading the web page.<br><br> - It helps in enhancing the user experience as the web page doesn't reload for every network request.
+            </p>
+        </div>
+    </body>
+</html>
