@@ -165,3 +165,25 @@ i:hover {
 .content {
     text-align: justify;
 }
+
+.animate {
+    animation: bump 600ms ease-out;
+}
+
+@keyframes bump {
+    10% {
+        transform: translateY(15px);
+    }
+    30% {
+        transform: translateY(-12px);
+    }
+    50% {
+        transform: translateY(9px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
