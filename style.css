@@ -108,7 +108,10 @@ hr {
 
 .section h1 {
     text-align: center;
-   
+}
+
+.a {
+    text-align: left;
 }
 .body {
     overflow: auto;
